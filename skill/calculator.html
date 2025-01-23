@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial;
+        }
+        table{
+            border-collapse: collapse;
+            height: 250px;
+            width: 225px;
+        }
+        table td, th{
+            padding: 5px;
+            text-align: center;
+        }
+        table{
+            border:none;
+        }
+        .output{
+            background-color: black;
+            color: white;
+            text-align: end;
+        }
+        .operators{
+            background-color: rgba(128, 128, 128, 0.463);
+        }
+        .numpad tr{
+            background-color: rgb(235, 235, 235);
+        }
+        .hit{
+            background-color: rgb(255, 115, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="complete">
+        <table border="1">
+            <tr>
+                <td colspan="4" class="output" style="border-top-left-radius:10px;border-top-right-radius: 10px;">0</td>
+            </tr>
+            <tr class="operators">
+                <td>&plus;</td>
+                <td>&minus;</td>
+                <td>&times;</td>
+                <td>&divide;</td>
+            </tr>
+            <div class="numpad">
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td rowspan="4" class="hit" style="border-bottom-right-radius: 15px;">=</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr style="border-bottom-right-radius: 15px;">
+                    <td>0</td>
+                    <td>.</td>
+                    <td>AC</td>
+                </tr>
+            </div>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        header{
+            background-color: rgb(255, 62, 59);
+            color: white;
+            text-align: center; 
+            margin: 0;
+            height: 2em;
+            font-size: 2em;
+            font-weight: bold;  
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 10em 1fr 10em;
+        }
+        .left, .right{
+            background-color: rgb(173, 181, 230);
+            height: 30em;
+        }
+        .main{
+            background-color: rgb(153, 255, 0);
+        }
+        footer{
+            background-color: rgb(136, 0, 255);
+            height: 10vh;
+        }
+    </style>
+</head>
+<body>
+    <header>KL University</header>
+    <div class="grid">
+        <div class="left">
+            LeftMenu
+        </div>
+        <div class="main">
+            Main
+        </div>
+        <div class="right">
+            Rightmenu
+        </div>
+    </div>
+    <footer>Footer</footer>
+</body>
+</html>

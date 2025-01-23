@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .position{
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            align-items: center;
+            height: 100vh;
+        }
+        table, tr, th, td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            transition: background-color 0.3s, color 0.3s;
+            text-align: center;
+            font-family: Arial;
+            padding: 5px;
+            width: 100px;
+        }
+        td:hover{
+            background-color: rgb(248, 255, 157);
+            color: red;
+        }
+        table{
+            height: 500px;
+            width: 800px;
+        }
+        </style>
+</head>
+<body>
+
+    <div class="position">
+         
+        <table>
+            <caption style="margin-bottom: 50px;">COLLEGE TIME TABLE</caption>
+            <tr>
+            <th></th>
+            <th>7:10 - 8:50</th>
+            <th>9:20 - 11:00</th>
+            <th>11:10 - 12:50</th>
+            <th>12:50 - 1:50</th>
+            <th>1:50 - 3:30</th>
+            <th>3:50 - 5:30</th>
+        </tr>
+        <tr>
+            <td>MONDAY</td>
+            <td></td>
+            <td>NPS-L M304</td>
+            <td>DBMS-P C219</td>
+            <td rowspan="5">LUNCH</td>
+            <td>DAA-L C421B1</td>
+        </tr>
+        <tr>
+            <td>TUESDAY</td>
+            <td>FEF-S C521A</td>
+            <td>FSAD-S M002A</td>
+            <td>DAA-S M301</td>
+            <td>AWS-CC-S C309</td>
+            <td>MP-S C110</td>
+        </tr>
+        <tr>
+            <td>WEDNESDAY</td>
+            <td>FEF-P C420A</td>
+            <td>MP-L M125</td>
+            <td>DAA-S C609</td>
+            <td>NPS-L(1/2) C110</td>
+        </tr>
+        <tr>
+            <td>THURSDAY</td>
+            <td>FEF-S C623</td>
+            <td>DBMS-L C107</td>
+            <td>FSAD-S L308</td>
+            <td>AWS-CC-S C309</td>
+            <td>DAA-P C019</td>
+        </tr>
+        <tr>
+            <td>FRIDAY</td>
+            <td></td>
+            <td>FSAD-P C219</td>
+            <td>NPS-P R205B</td>
+            <td>DAA-L C406 ,DBMS C607</td>
+            <td>Chess </td>
+        </tr>
+        </table>
+    </div>
+</body>
+</html>

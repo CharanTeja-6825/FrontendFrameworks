@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: #f0f0f0;
+            }
+            div {
+                margin: 10px 0;
+            }
+            .container {
+                background-color: #fff;
+                border: 2px solid #ccc;
+                border-radius: 10px;
+                padding: 20px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                width: 220px;
+            }
+            .display {
+                background-color: #eaeaea;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                padding: 10px;
+                text-align: right;
+                font-size: 20px;
+                margin-bottom: 20px;
+                height: 40px;
+            }
+            button {
+                width: 50px;
+                height: 50px;
+                margin: 5px;
+                font-size: 18px;
+                border: none;
+                border-radius: 5px;
+                background-color: #f9f9f9;
+                cursor: pointer;
+            }
+            button:hover {
+                background-color: #ddd;
+            }
+            .eq {
+                height: 110px;
+                background-color: #4CAF50;
+                color: white;
+            }
+            .eq:hover {
+                background-color: #45a049;
+            }
+            .operands, .r1, .r2, .r3, .r4 {
+                display: flex;
+                justify-content: space-between;
+            }
+            .r4 {
+                justify-content: space-around;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="display">
+                <p>0</p>
+            </div>
+            <div class="operands">
+                <button>&plus;</button>
+                <button>&minus;</button>
+                <button>x</button>
+                <button>&divide;</button>
+            </div>
+            <div class="numbers">
+                <div class="r1">
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                </div>
+                <div class="r2">
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                </div>
+                <div class="r3">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                </div>
+                <div class="r4">
+                    <button>0</button>
+                    <button>.</button>
+                    <button>AC</button>
+                </div>
+            </div>
+            <button class="eq">&equals;</button>
+        </div>
+    </body>
+</html>

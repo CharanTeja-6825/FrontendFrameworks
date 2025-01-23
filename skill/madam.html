@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/2fe394aa2c.js" crossorigin="anonymous"></script>
+    <style>
+        .group{
+            display: flex;
+            margin: 10px;
+        }
+        .flipkart{
+            background-color: rgb(255, 247, 0);
+            border: none;
+            padding: 20px;
+            font-size: 16px;
+            border-radius: 35px;
+            cursor: pointer;
+            transition: box-shadow 0.5s;
+        }
+        .flipkart:hover{
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.397);
+        }
+        .flipkart:active{
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.589);
+        }
+        .amazon{
+            background-color: rgb(255, 221, 0);
+            padding: 30px;
+            border: none;
+            margin-left: 5px;
+            border-radius: 35px;
+            border-bottom: 5px;
+        }    
+    </style>
+</head>
+<body>
+   <div class="group">
+    <a href="https://www.flipkart.com"><button class="flipkart">go to flipkart</button></a>
+    <a href="https://www.amazon.in">
+        <img src="/assets/images/Amazon_logo.svg" alt="amazon" class="amazon">
+    </a>
+   </div>
+   <i class="fa fa-amazon"></i>
+</body>
+</html>

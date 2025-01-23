@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .images{
+            display: flex;
+            
+        }
+        img{
+            margin: 2%;
+        }
+        .image-container img{
+            width: 200px;
+            height: 200px;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        .image-container img:hover{
+            transform: scale(1.1);
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="images image-container">
+        <img src="/assets/images/pepsi.png" alt="Pepsi" style="height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    border-radius: 35px;">
+    <img src="/assets/images/images.png" alt="Apple" style="height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    margin-bottom: 6%;
+    border-radius: 35px;">
+    <img src="/assets/images/BrandAssets_Logos_02-NSymbol.jpg" alt="Netflix" style="height: 300px; width: 500px;
+    border: 2px solid rgb(212, 6, 6);
+    border-radius: 35px;"
+    </div>
+</body>
+</html>
